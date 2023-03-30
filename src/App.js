@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import axios from "axios";
 import { useState, useEffect } from "react";
+import Students from "./Components/Students";
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -37,6 +38,7 @@ function App() {
         >
           Learn React
         </a>
+        <Students />
       </header>
     </div>
   );
